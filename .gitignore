@@ -1,0 +1,30 @@
+# Compiled binaries (we commit source .cpp files, never the compiled output)
+*.exe
+*.out
+*.o
+*.obj
+
+# Compiled binaries that have no file extension (typical g++ output on macOS/Linux)
+# One line per existing exercise binary in this repo, plus wildcards for new course folders.
+01-basics-of-programming/examples/*
+!01-basics-of-programming/examples/*.cpp
+02-data-types/examples/*
+!02-data-types/examples/*.cpp
+03-variables/examples/*
+!03-variables/examples/*.cpp
+04-control-structures/examples/*
+!04-control-structures/examples/*.cpp
+05-data-structures/examples/*
+!05-data-structures/examples/*.cpp
+06-functions-i/examples/*
+!06-functions-i/examples/*.cpp
+07-functions-ii/examples/*
+!07-functions-ii/examples/*.cpp
+08-classes-and-objects/examples/*
+!08-classes-and-objects/examples/*.cpp
+09-capstone-project/build/
+
+# Editor/OS clutter
+.vscode/ipch/
+.DS_Store
+*.dSYM/
