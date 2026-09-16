@@ -193,3 +193,6 @@ session_log.txt
 .vscode/ipch/
 .DS_Store
 *.dSYM/
+
+# Microsoft Office lock files (created while a .docx/.pptx/.xlsx is open)
+~$*
