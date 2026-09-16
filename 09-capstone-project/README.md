@@ -110,10 +110,14 @@ comments marking exactly which stage each TODO belongs to.
 ## Where to go from here
 
 You now know enough C++ to read most beginner-to-intermediate tutorials,
-build small tools, and keep learning independently. Natural next steps,
-outside this course: pointers and dynamic memory in more depth,
-inheritance and polymorphism (the next OOP topic after this course's
-Classes and Objects), file I/O (reading/writing files instead of only
-the console), and the wider Standard Template Library (`std::map`,
-`std::set`, algorithms like `std::sort`). Keep committing to GitHub as
-you explore — that habit only compounds in value from here.
+build small tools, and keep learning independently. The natural next
+step is **[Part 2: Intermediate C++](../README.md#part-2--intermediate-c)**,
+starting at **[Module 10 — Pointers & Dynamic Memory](../10-pointers-dynamic-memory/README.md)**
+— it picks up exactly where this capstone leaves off: pointers in
+proper depth, inheritance and polymorphism (the next OOP topic after
+this course's Classes and Objects), file I/O, exception handling, the
+wider Standard Template Library (`std::map`, `std::set`, algorithms
+like `std::sort`), and templates — with every module's project offered
+in Generic, Electrical/Electronic Engineering, and Biomedical
+Engineering tracks. Keep committing to GitHub as you go — that habit
+only compounds in value from here.

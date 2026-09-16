@@ -24,6 +24,8 @@ Every module follows the same shape, so you always know what to expect:
 
 ## Roadmap
 
+### Part 1 — Foundations
+
 | # | Module | You will be able to... |
 |---|--------|------------------------|
 | 0 | [Setup: Tools, Git & GitHub](00-setup/README.md) | Install a compiler, use VS Code, and push code to GitHub |
@@ -37,10 +39,36 @@ Every module follows the same shape, so you always know what to expect:
 | 8 | [Classes and Objects](08-classes-and-objects/README.md) | Design your own types with data + behavior bundled together (OOP) |
 | 9 | [Capstone Project](09-capstone-project/README.md) | Combine everything into one real program, built and committed in stages |
 
-Each module also builds toward the **capstone**: a Student Records &
+Each Part 1 module builds toward its **capstone**: a Student Records &
 Grading System you'll grow piece by piece, committing your progress to
 GitHub at every stage — so by the end you'll have a real project in your
 GitHub portfolio, not just scattered exercises.
+
+### Part 2 — Intermediate C++
+
+Picks up exactly where Part 1's capstone leaves off. Every module's hook
+project is offered as three tracks — **Generic**, **Electrical/Electronic
+Engineering**, and **Biomedical Engineering** — so you can apply each new
+concept to your own field; pick whichever track fits you, or try more
+than one.
+
+| # | Module | You will be able to... |
+|---|--------|------------------------|
+| 10 | [Pointers & Dynamic Memory](10-pointers-dynamic-memory/README.md) | Use addresses/pointers directly and allocate runtime-sized memory with `new`/`delete` |
+| 11 | [Inheritance](11-inheritance/README.md) | Derive one class from another to model "is-a" relationships and reuse behavior |
+| 12 | [Polymorphism & Virtual Functions](12-polymorphism/README.md) | Use `virtual` so a mixed collection of derived objects is handled correctly through one base-class interface |
+| 13 | [Operator Overloading](13-operator-overloading/README.md) | Make your own classes support `+`, `==`, `<<`, and other natural syntax |
+| 14 | [File I/O](14-file-io/README.md) | Read and write files so data persists across program runs |
+| 15 | [Exception Handling](15-exception-handling/README.md) | Use `try`/`catch`/`throw` to handle bad input and unsafe conditions gracefully |
+| 16 | [STL: Containers & Iterators](16-stl-containers/README.md) | Use `map`/`set` and iterators to pick the right container for a problem |
+| 17 | [STL Algorithms & Lambdas](17-stl-algorithms-lambdas/README.md) | Use `sort`/`find`/`transform`/`count_if` and lambda functions instead of hand-written loops |
+| 18 | [Templates](18-templates/README.md) | Write generic functions and classes that work across types |
+| 19 | [Capstone Project 2](19-capstone-project-2/README.md) | Combine every Part 2 concept into one real, staged, track-based project |
+
+Part 2's capstone offers the same three tracks — Generic, EE, and
+Biomedical — each extending or paralleling the Part 1 capstone with
+inheritance, file persistence, exception safety, STL containers, and
+generic templates.
 
 ## Ground rules for how we'll work
 
