@@ -1,9 +1,10 @@
 # Introduction to C++ Programming — A Beginner's Course
 
 Welcome! This course takes you from **never having written a line of code** to
-**building a multi-file C++ project with classes, functions, and data
-structures, tracked in Git and pushed to GitHub.** No prior programming
-experience is assumed.
+**designing, building and testing a real object-oriented C++ system,
+tracked in Git and pushed to GitHub.** No prior programming experience is
+assumed. It runs in three parts: **Foundations** (Part 1), **Intermediate
+C++** (Part 2), and **Object-Oriented Programming with C++** (Part 3).
 
 ## How this course is built
 
@@ -69,6 +70,64 @@ Part 2's capstone offers the same three tracks — Generic, EE, and
 Biomedical — each extending or paralleling the Part 1 capstone with
 inheritance, file persistence, exception safety, STL containers, and
 generic templates.
+
+### Part 3 — Object-Oriented Programming with C++
+
+Part 1 and Part 2 taught you the *mechanics* of classes, inheritance,
+polymorphism, operators and templates. Part 3 teaches you to **design**
+with objects: deciding which classes a program needs, who owns what,
+how objects relate, how they stay correct when things go wrong, and how
+to prove they work. From Module 22 onwards every project is a
+**multi-file CMake project**, and every module is compiled with
+`g++ -std=c++17 -Wall -Wextra` (a few use `-std=c++20`).
+
+Every project continues one of three tracks through the whole of Part 3
+— **Generic** (a school management system), **Electrical/Electronic
+Engineering** (a smart-home energy system), or **Biomedical
+Engineering** (a hospital ward monitoring system) — growing piece by
+piece into Capstone Project 3.
+
+**Unit A — Thinking in objects**
+
+| # | Module | You will be able to... |
+|---|--------|------------------------|
+| 20 | [OOP Principles & Object Modelling](20-oop-principles/README.md) | Explain the four pillars, find classes with noun/verb analysis, and draw CRC cards and UML class diagrams |
+| 21 | [Class Design in Depth](21-class-design/README.md) | Use initializer lists, delegating and `explicit` constructors, `const` correctness, invariants, and `static` members |
+| 22 | [Multi-File Projects & Namespaces](22-multi-file-projects/README.md) | Split code into headers and source files, fix linker errors, use namespaces, and build with CMake |
+
+**Unit B — Object lifetime & resource management**
+
+| # | Module | You will be able to... |
+|---|--------|------------------------|
+| 23 | [Object Lifetime, Destructors & RAII](23-object-lifetime-raii/README.md) | Predict when objects are created and destroyed, and tie resources to object lifetimes with RAII |
+| 24 | [Copy Semantics](24-copy-semantics/README.md) | Write correct copy constructors and copy assignment, and apply the Rule of Three and the Rule of Zero |
+| 25 | [Move Semantics](25-move-semantics/README.md) | Use rvalue references, move operations, `std::move` and `noexcept`, and apply the Rule of Five |
+| 26 | [Smart Pointers & Ownership](26-smart-pointers/README.md) | Replace `new`/`delete` with `unique_ptr`, `shared_ptr` and `weak_ptr`, and make ownership visible |
+
+**Unit C — Relationships between classes**
+
+| # | Module | You will be able to... |
+|---|--------|------------------------|
+| 27 | [Composition, Aggregation & Association](27-composition-aggregation/README.md) | Choose the right "has-a" relationship, prefer composition over inheritance, and draw it in UML |
+| 28 | [Advanced Inheritance](28-advanced-inheritance/README.md) | Use inheritance modes, inheriting constructors, `final`, multiple inheritance, and virtual inheritance |
+| 29 | [Abstract Classes, Interfaces & Advanced Polymorphism](29-abstract-classes-interfaces/README.md) | Design abstract classes and interfaces, explain vtables, and use `dynamic_cast` and `clone()` responsibly |
+
+**Unit D — Making classes feel built-in**
+
+| # | Module | You will be able to... |
+|---|--------|------------------------|
+| 30 | [Operator Overloading II & Friends](30-operator-overloading-ii/README.md) | Build complete value types with `friend`, `+=`, `++`, `[]`, functors, `>>`, conversions, and `<=>` |
+| 31 | [Exceptions in Class Design](31-exceptions-in-class-design/README.md) | Design exception hierarchies and write code with the basic, strong and no-throw guarantees |
+| 32 | [Templates Meet OOP](32-templates-meet-oop/README.md) | Combine templates with classes: specialisation, non-type parameters, CRTP, and C++20 concepts |
+
+**Unit E — Designing real software**
+
+| # | Module | You will be able to... |
+|---|--------|------------------------|
+| 33 | [SOLID Principles & Clean Design](33-solid-principles/README.md) | Apply SOLID, spot code smells, and refactor safely |
+| 34 | [Design Patterns in C++](34-design-patterns/README.md) | Use Factory, Builder, Singleton, Adapter, Composite, Decorator, Strategy, Observer, State and Command |
+| 35 | [Testing & Debugging OO Code](35-testing-debugging/README.md) | Write unit tests with fakes, practise TDD, use Catch2 and `gdb`, and find memory bugs with sanitizers |
+| 36 | [Capstone Project 3](36-capstone-project-3/README.md) | Design, build, test and document a complete object-oriented system in four committed stages |
 
 ## Ground rules for how we'll work
 

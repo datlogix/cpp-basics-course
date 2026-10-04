@@ -1,6 +1,8 @@
 // Heap (dynamic) objects survive the end of the function that created
 // them. Their destructor runs ONLY when delete is called - and never,
 // if delete is forgotten.
+// (Built with -fsanitize=address, LeakSanitizer reports this leak when the
+// program ends - that is the demonstration working, not a mistake.)
 #include <iostream>
 #include <string>
 

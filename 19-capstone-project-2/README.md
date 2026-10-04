@@ -146,10 +146,13 @@ git push
 ## Where to go from here
 
 You now have a solid, practical grounding in intermediate C++. Natural
-next steps beyond this course: smart pointers (`std::unique_ptr`,
-`std::shared_ptr`) to replace raw `new`/`delete` entirely, multiple
-inheritance and interfaces, move semantics and `std::move`, multi-file
-projects with headers and a build system (CMake), and unit testing
-(e.g. with Catch2 or GoogleTest). Keep committing to GitHub as you
-explore — the habit built across both parts of this course is worth
-more, long-term, than any single topic in it.
+next steps: smart pointers (`std::unique_ptr`, `std::shared_ptr`) to
+replace raw `new`/`delete` entirely, multiple inheritance and
+interfaces, move semantics and `std::move`, multi-file projects with
+headers and a build system (CMake), and unit testing (e.g. with Catch2
+or GoogleTest). **Part 3 of this course covers every one of these** —
+and teaches you to *design* object-oriented systems, not just write
+classes. Keep committing to GitHub as you go — the habit built across
+the course is worth more, long-term, than any single topic in it.
+
+Next: **[Part 3, Module 20 — OOP Principles & Object Modelling](../20-oop-principles/README.md)**.

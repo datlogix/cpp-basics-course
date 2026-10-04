@@ -5,6 +5,8 @@
 // than crashing. (With a destructor that did delete[] data, the program
 // would delete the same array TWICE when a and b die - undefined
 // behaviour, typically a crash. Never do this in real code.)
+// (Built with -fsanitize=address, LeakSanitizer reports this leak when the
+// program ends - that is the demonstration working, not a mistake.)
 #include <iostream>
 
 class SampleBuffer {

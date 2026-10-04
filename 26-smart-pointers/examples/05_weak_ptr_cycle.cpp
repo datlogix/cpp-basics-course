@@ -1,5 +1,7 @@
 // Two objects owning each other with shared_ptr form a CYCLE: neither
 // count ever reaches zero, so neither is ever deleted. weak_ptr fixes it.
+// (Built with -fsanitize=address, LeakSanitizer reports this leak when the
+// program ends - that is the demonstration working, not a mistake.)
 #include <iostream>
 #include <memory>
 #include <string>

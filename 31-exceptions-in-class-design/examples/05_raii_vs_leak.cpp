@@ -1,6 +1,8 @@
 // With raw new/delete, an exception skips the delete - a leak - unless
 // every function wraps its work in try/catch. With RAII, stack unwinding
 // cleans up automatically.
+// (Built with -fsanitize=address, LeakSanitizer reports this leak when the
+// program ends - that is the demonstration working, not a mistake.)
 #include <iostream>
 #include <memory>
 #include <stdexcept>
