@@ -45,6 +45,11 @@ Grading System you'll grow piece by piece, committing your progress to
 GitHub at every stage — so by the end you'll have a real project in your
 GitHub portfolio, not just scattered exercises.
 
+Want more practice? The **C++ Foundations Project Book**
+(`Teaching Manuals/student-project-book/`) has three extra activities per
+module, plus an Extended Capstone, and every activity has a starter file in
+[`project-book/`](project-book/README.md).
+
 ### Part 2 — Intermediate C++
 
 Picks up exactly where Part 1's capstone leaves off. Every module's hook
